@@ -4,6 +4,7 @@
 # Allow specific files/folders
 !.gitignore
 !.zshrc
+!.tmux.conf
 !.config/
 .config/*
 !.config/hypr/
