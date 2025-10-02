@@ -1,0 +1,25 @@
+[window]
+padding.x = 5
+padding.y = 5
+opacity = 0.83
+decorations = "None"
+
+[font]
+normal.family = "MonaspiceRn Nerd Font Mono"
+size = 13
+builtin_box_drawing = true
+
+[mouse]
+# Hide cursor when typing (common for focus in CLI).
+hide_when_typing = true
+
+[cursor]
+# Cursor style: "Block", "Underline", or "Beam". Block is common for visibility.
+style.shape = "Block"
+style.blinking = "Off"
+
+[env]
+# Ensure Wayland backend for Alacritty to avoid XWayland overhead.
+WAYLAND_DISPLAY = "wayland-0"
+# Fix cursor issues on Wayland (common tweak for Hyprland).
+WINIT_X11_SCALE_FACTOR = "1.0"
